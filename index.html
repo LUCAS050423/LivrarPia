@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divoos Livros — Livraria Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">📚 Divoos Livros</h1>
+      <nav class="nav">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Encontre histórias que inspiram</h2>
+          <p>Explore nosso catálogo e descubra obras que vão transformar seus dias.</p>
+          <a class="btn" href="#catalogo">Ver Livros</a>
+        </div>
+        <div class="hero-visual">
+          <svg width="180" height="160" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="10" y="10" width="60" height="130" rx="6" fill="rgba(255,255,255,0.08)" />
+            <rect x="80" y="10" width="60" height="130" rx="6" fill="rgba(255,255,255,0.05)" />
+            <rect x="150" y="10" width="40" height="130" rx="6" fill="rgba(255,255,255,0.03)" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="container catalogo">
+      <h3>Catálogo de Livros</h3>
+      <div class="cards">
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Ficção" alt="Livro de Ficção">
+          <div class="card-body">
+            <h4>O Jardim das Palavras</h4>
+            <p class="desc">Uma história sobre amor, solidão e autodescoberta.</p>
+            <div class="card-row">
+              <span class="price">R$ 49,90</span>
+              <button class="btn small">Comprar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Mistério" alt="Livro de Mistério">
+          <div class="card-body">
+            <h4>Sombras da Meia-Noite</h4>
+            <p class="desc">Suspense envolvente e reviravoltas inesquecíveis.</p>
+            <div class="card-row">
+              <span class="price">R$ 59,90</span>
+              <button class="btn small">Comprar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Fantasia" alt="Livro de Fantasia">
+          <div class="card-body">
+            <h4>As Crônicas do Fogo</h4>
+            <p class="desc">Um épico sobre coragem, magia e destino.</p>
+            <div class="card-row">
+              <span class="price">R$ 69,00</span>
+              <button class="btn small">Comprar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Autoajuda" alt="Livro de Autoajuda">
+          <div class="card-body">
+            <h4>O Poder do Agora</h4>
+            <p class="desc">Aprenda a viver o presente e alcançar a plenitude.</p>
+            <div class="card-row">
+              <span class="price">R$ 39,90</span>
+              <button class="btn small">Comprar</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre" class="container sobre">
+      <h3>Sobre a Divoos Livros</h3>
+      <p>Na Divoos Livros acreditamos que a leitura é a melhor forma de viajar sem sair do lugar. Trabalhamos com editoras e autores independentes para levar cultura e conhecimento até você.</p>
+    </section>
+
+    <section id="contato" class="container contato">
+      <h3>Fale Conosco</h3>
+      <form class="contato-form">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="Seu nome" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="seu@exemplo.com" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="4" placeholder="Envie suas dúvidas ou sugestões"></textarea>
+
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Divoos Livros — Todos os direitos reservados.</p>
+      <small>Leitura é liberdade.</small>
+    </div>
+  </footer>
+</body>
+</html>
